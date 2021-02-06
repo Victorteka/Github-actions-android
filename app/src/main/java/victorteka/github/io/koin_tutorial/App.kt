@@ -8,7 +8,6 @@ import victorteka.github.io.koin_tutorial.di.module.repoModule
 import victorteka.github.io.koin_tutorial.di.module.viewModelModule
 
 class App: Application(){
-
     override fun onCreate() {
         super.onCreate()
         startKoin {
